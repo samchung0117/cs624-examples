@@ -1,4 +1,4 @@
-# HOS01 - Cloud-Based Development Environment
+# HOS01 - Colud-Based Development Environment
 ##  Learning Outcomes
 1. Understand a cloud-based development environment (Codesapces) and an open-source platform for making universal native apps with JavaScript and React (Expo). 
 2. Apply Codespaces and Expo to a simple React Native mobile app.
@@ -41,17 +41,20 @@
   * [CSS Comment Statement](https://www.w3schools.com/css/css_comments.asp)
 
 ## Skills
-  * Create your account in [Expo](https://expo.dev/)
+  * If you did not set up your CDE with Expo
+    * Install Expo CLI
+      * npm install -g expo-cli
+    * Create your account in [Expo](https://expo.dev/)
   * In your Codesapces
     * Log in your Expo account
-      * npx expo login
+      * expo login
     * Test your node environment
       * node --version
       * npx --version
       * npm --version
 
   * Creating an Expo react native mobile app. (Assume your mobile app name is my-mobile-app. Youc an use any app name.)
-    * npx create-expo-app my-mobile-app
+    * expo init my-mobile-app
     * cd my-mobile-app
-    * npx expo start --tunnel
+    * expo start --tunnel
       * (If both your computer and your smartphone are connected in the same network, you can type "expo start." But "--tunnel" is preferred to reduce any network errors.)
